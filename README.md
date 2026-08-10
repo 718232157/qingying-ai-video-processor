@@ -3,12 +3,19 @@
 > 面向电商直播回放、长口播素材和批量二剪业务的 Windows 桌面软件。
 > 将长视频文稿识别、目标词定位、人工复核、批量静音和视频导出整合为一套可安装、可授权、可运营的生产流程。
 
+> [!IMPORTANT]
+> **这是清影的公开 Demo 与技术说明仓库，不是完整源码仓库。** 仓库目前以 README 和公开展示素材为主，但页面中的产品界面、运行样例和系统能力均来自已经投入实际使用的软件，而非概念设计。真实产品由 Windows 桌面客户端、端侧智能处理引擎、授权服务和运营后台组成。
+>
+> 清影目前已有一家企业正在参与推广验证。为保护合作验证过程、核心处理链路和线上运营系统，完整源码现阶段暂不公开。
+>
+> **可以实际体验：** [下载 Windows 客户端（夸克网盘）](https://pan.quark.cn/s/5185b474a0ef?pwd=Ka6x#/list/share)，提取码 `Ka6x`。当前采用邀请制账号开通，下载后可通过 [718232157@qq.com](mailto:718232157@qq.com) 申请试用账号。
+
 <p align="center">
   <img src="assets/qingying-workflow-demo.jpg" alt="清影长视频目标词处理工作台：文稿、视频预览、时间轴与导出面板" width="100%" />
 </p>
 
 <p align="center">
-  <sub><strong>公开项目展示</strong>&nbsp;&nbsp;·&nbsp;&nbsp;当前版本 1.0.37&nbsp;&nbsp;·&nbsp;&nbsp;Windows 10/11 x64&nbsp;&nbsp;·&nbsp;&nbsp;NVIDIA GPU&nbsp;&nbsp;·&nbsp;&nbsp;媒体端侧处理&nbsp;&nbsp;·&nbsp;&nbsp;已投入实际使用</sub>
+  <sub><strong>公开 Demo 与技术说明</strong>&nbsp;&nbsp;·&nbsp;&nbsp;当前版本 1.0.37&nbsp;&nbsp;·&nbsp;&nbsp;Windows 10/11 x64&nbsp;&nbsp;·&nbsp;&nbsp;NVIDIA GPU&nbsp;&nbsp;·&nbsp;&nbsp;媒体端侧处理&nbsp;&nbsp;·&nbsp;&nbsp;已投入实际使用</sub>
 </p>
 
 ## 项目概览
