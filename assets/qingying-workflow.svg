@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+  <title id="title">清影核心工作流</title>
+  <desc id="desc">从视频准备、本地智能处理到安全导出和人工复查的三阶段工作流。</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FBFD"/>
+      <stop offset="1" stop-color="#F4F8FA"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2877B8"/>
+      <stop offset="1" stop-color="#1D5F94"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20A99A"/>
+      <stop offset="1" stop-color="#128276"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#17354D" flood-opacity="0.09"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6B8294"/>
+    </marker>
+    <style>
+      text { font-family: "Microsoft YaHei UI", "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 1.8px; }
+      .heading { font-size: 27px; font-weight: 700; fill: #142C3E; }
+      .subtitle { font-size: 14px; fill: #63798A; }
+      .stage { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }
+      .card-title { font-size: 21px; font-weight: 700; fill: #142C3E; }
+      .item { font-size: 15px; fill: #314A5D; }
+      .number { font-size: 16px; font-weight: 700; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="558" rx="22" fill="url(#canvas)" stroke="#DCE7ED"/>
+  <text x="48" y="52" class="eyebrow" fill="#2877B8">QINGYING WORKFLOW</text>
+  <text x="48" y="88" class="heading">从长视频素材到可复查成片</text>
+  <text x="48" y="116" class="subtitle">本地识别、集中复核、批量处理，最终交由专业剪辑软件确认</text>
+
+  <line x1="398" y1="314" x2="454" y2="314" stroke="#6B8294" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="820" y1="314" x2="876" y2="314" stroke="#6B8294" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="48" y="152" width="350" height="326" rx="18" fill="#FFFFFF" stroke="#D8E4EB"/>
+    <rect x="48" y="152" width="350" height="7" rx="3.5" fill="#7B95A8"/>
+    <circle cx="86" cy="199" r="18" fill="#6C879A"/>
+    <text x="86" y="205" text-anchor="middle" class="number">1</text>
+    <text x="116" y="190" class="stage" fill="#6C879A">PREPARE</text>
+    <text x="116" y="219" class="card-title">准备素材</text>
+    <line x1="78" y1="246" x2="368" y2="246" stroke="#E5EDF1"/>
+
+    <circle cx="87" cy="280" r="5" fill="#7B95A8"/>
+    <text x="108" y="286" class="item">导入视频并执行媒体预检</text>
+    <circle cx="87" cy="329" r="5" fill="#7B95A8"/>
+    <text x="108" y="335" class="item">检查音频轨与媒体时间轴</text>
+    <circle cx="87" cy="378" r="5" fill="#7B95A8"/>
+    <text x="108" y="384" class="item">在本机提取处理所需音频</text>
+
+    <rect x="78" y="421" width="290" height="34" rx="17" fill="#F0F4F7"/>
+    <text x="223" y="443" text-anchor="middle" font-size="13" font-weight="700" fill="#587286">输入 · 本地视频素材</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="470" y="142" width="350" height="346" rx="18" fill="#FFFFFF" stroke="#BDD9EC"/>
+    <rect x="470" y="142" width="350" height="7" rx="3.5" fill="url(#primary)"/>
+    <circle cx="508" cy="189" r="18" fill="url(#primary)"/>
+    <text x="508" y="195" text-anchor="middle" class="number">2</text>
+    <text x="538" y="180" class="stage" fill="#2877B8">INTELLIGENCE</text>
+    <text x="538" y="209" class="card-title">识别与复核</text>
+    <line x1="500" y1="236" x2="790" y2="236" stroke="#DDEAF2"/>
+
+    <circle cx="509" cy="270" r="5" fill="#2877B8"/>
+    <text x="530" y="276" class="item">中文语音识别与时间定位</text>
+    <circle cx="509" cy="315" r="5" fill="#2877B8"/>
+    <text x="530" y="321" class="item">目标词搜索与候选召回</text>
+    <circle cx="509" cy="360" r="5" fill="#2877B8"/>
+    <text x="530" y="366" class="item">文稿 · 视频 · 时间轴联合复核</text>
+    <circle cx="509" cy="405" r="5" fill="#2877B8"/>
+    <text x="530" y="411" class="item">生成可撤回的处理计划</text>
+
+    <rect x="500" y="444" width="290" height="34" rx="17" fill="#EAF4FB"/>
+    <text x="645" y="466" text-anchor="middle" font-size="13" font-weight="700" fill="#1D5F94">核心 · 本地 AI 处理引擎</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="892" y="152" width="340" height="326" rx="18" fill="#FFFFFF" stroke="#CDE5E0"/>
+    <rect x="892" y="152" width="340" height="7" rx="3.5" fill="url(#teal)"/>
+    <circle cx="930" cy="199" r="18" fill="url(#teal)"/>
+    <text x="930" y="205" text-anchor="middle" class="number">3</text>
+    <text x="960" y="190" class="stage" fill="#128276">DELIVER</text>
+    <text x="960" y="219" class="card-title">安全导出</text>
+    <line x1="922" y1="246" x2="1202" y2="246" stroke="#E2EEEB"/>
+
+    <circle cx="931" cy="280" r="5" fill="#20A99A"/>
+    <text x="952" y="286" class="item">候选边界与正常语音保护</text>
+    <circle cx="931" cy="329" r="5" fill="#20A99A"/>
+    <text x="952" y="335" class="item">FFmpeg 音轨处理与视频导出</text>
+    <circle cx="931" cy="378" r="5" fill="#20A99A"/>
+    <text x="952" y="384" class="item">成片完整性校验与人工复查</text>
+
+    <rect x="922" y="421" width="280" height="34" rx="17" fill="#EAF7F4"/>
+    <text x="1062" y="443" text-anchor="middle" font-size="13" font-weight="700" fill="#128276">输出 · 可继续剪辑的视频</text>
+  </g>
+
+  <g transform="translate(48 512)">
+    <path d="M8 4 L16 1 L24 4 V11 C24 18 19 23 16 25 C13 23 8 18 8 11 Z" fill="#E8F4FA" stroke="#2877B8" stroke-width="1.5"/>
+    <path d="M12.5 12.5 L15 15 L20 9.5" fill="none" stroke="#2877B8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="36" y="18" font-size="13" font-weight="700" fill="#506B7D">视频、音频与识别文稿仅在本机处理</text>
+  </g>
+</svg>
